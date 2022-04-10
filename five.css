@@ -1,0 +1,28 @@
+body {
+    background: rgb(226, 255, 226);
+}
+
+.container {
+    width: 500px;
+    height: 350px;
+    background: rgb(150, 150, 150);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.container div {
+    width: 150px;
+    height: 150px;
+    background: rgb(70, 69, 69);
+}
+
+.container p {
+    color: rgb(253, 250, 245);
+    font-size: 25px;
+    text-align: center;
+    line-height: 100px;
+}

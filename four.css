@@ -1,0 +1,61 @@
+body {
+    background-image: url(food.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 650px;
+    height: 200px;
+    border: 1px solid transparent;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.site {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.discounts {
+    width: 150px;
+    height: 100px;
+    border: 1px dashed red;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.proc {
+    color: red;
+    font-size: 50px;
+}
+
+.discounts p {
+    margin-top: 13px;
+}
+
+.clock {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.container h1 {
+    color: red;
+    position: absolute;
+    top: 30%;
+}
+
+h3 {
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 23px;
+}
