@@ -1,0 +1,51 @@
+body {
+    background: rgba(141, 141, 141, 0.603);
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: linear-gradient(135deg, #F6EEDB 50%, #F4FEF9 50%);
+    width: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.container q {
+    font-style: italic;
+}
+
+.container cite {
+    color: rgb(26, 128, 128);
+    font-style: normal;
+    text-align: center;
+}
+
+.link {
+    width: 270px;
+    margin: auto;
+    text-align: right;
+}
+
+.link a {
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    letter-spacing: 0.1em;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    background: #F4FEF9;
+    border-radius: 5px;
+}
+
+.link a:visited {
+    color: rgb(131, 131, 131);
+}

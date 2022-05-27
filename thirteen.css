@@ -1,0 +1,52 @@
+body {
+    background-image: url(fabric.png);
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    border-color: #0f141e #0338a3;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 20px 0px rgb(139, 131, 131);
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 13px 0;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    display: block;
+}
+
+a:hover {
+    box-shadow: 2px 2px 20px 0px rgb(139, 131, 131);
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 0 15px;
+    border-top: 1px solid #a2a2a3;
+}
+
+.block p {
+    margin: 0;
+    text-align: left;
+}
+
+.block > div {
+    margin-left: 10px;
+}
